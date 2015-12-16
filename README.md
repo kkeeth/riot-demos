@@ -1,4 +1,4 @@
-This is a Repository of some simple demos of Riot.js.
+This is a repository of some simple demos of Riot.js.
 
 Please note the following things.
 
@@ -7,3 +7,10 @@ Please note the following things.
 - These demos are fairly simple.
 
 Let's enjoy Riot.js life!
+
+***
+
+## Demo1 
+Show text "Hello Riot.js!".
+
+***
