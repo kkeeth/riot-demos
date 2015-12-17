@@ -10,9 +10,8 @@ Let's enjoy Riot.js life!
 
 
 ## About demos
-1. Demo1: [Hello Riot.js](https://github.com/k-kuwahara/riot-demos/blob/master/demo1/index.html)
-2. Demo2: [mount](https://github.com/k-kuwahara/riot-demos/blob/master/demo2/index.html)
-2. Demo3: [loop](https://github.com/k-kuwahara/riot-demos/blob/master/demo3/index.html)
+1. Demo1: [mount](https://github.com/k-kuwahara/riot-demos/blob/master/demo1/index.html)
+2. Demo2: [loop](https://github.com/k-kuwahara/riot-demos/blob/master/demo2/index.html)
 
 ## License
 BSD license
