@@ -10,8 +10,8 @@ Let's enjoy Riot.js life!
 
 
 ## About demos
-1. Demo1: [mount](https://github.com/k-kuwahara/riot-demos/blob/master/demo1/index.html)
-2. Demo2: [loop](https://github.com/k-kuwahara/riot-demos/blob/master/demo2/index.html)
+1. Demo1: [Mount](https://github.com/k-kuwahara/riot-demos/blob/master/demo1/index.html)
+2. Demo2: [Loop](https://github.com/k-kuwahara/riot-demos/blob/master/demo2/index.html)
 
 ## License
-BSD license
+[MIT license](https://github.com/k-kuwahara/riot-demos/blob/master/LICENSE.md)
