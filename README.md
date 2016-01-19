@@ -1,4 +1,4 @@
-This is a repository of some simple demos of Riot.js.
+This is a repository of some simple demos of [Riot.js](http://riotjs.com/).
 
 Please note the following things.
 
