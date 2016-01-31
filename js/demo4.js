@@ -1,0 +1,2 @@
+riot.tag2('app', '<h1>{opts.title}</h1> <p>example1</p> <ul> <li each="{opts.items}"><label class="{key}">{value}</label></li> </ul> <p>example2</p> <ul> <li each="{vals, key in opts.items}"><label>{vals.key}: {vals.value}</label></li> </ul>', '', '', function(opts) {
+}, '{ }');

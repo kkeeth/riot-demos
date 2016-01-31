@@ -3,20 +3,24 @@
     <p>Please enter either of the text box</p>
     <form onSubmit={ doCheck } >
         <p>example1</p>
-        <input type="text" onkeyup={ input }>
-        <input disabled={ !text } type="submit" value="チェック">
+        <input type="text" onkeyup={ input1 }>
+        <input disabled={ !text1 } type="submit" value="チェック">
 
         <p>example2</p>
-        <input type="text" onkeyup={ input }>
-        <span if={ text }>
+        <input type="text" onkeyup={ input2 }>
+        <span if={ text2 }>
             <input type="submit" value="チェック">
         </span>
     </form>
     <script>
-        this.text = "";
+        this.text1 = "";
+        this.text2 = "";
 
-        input(e) {
-           this.text = e.target.value;
+        input1(e) {
+           this.text1 = e.target.value;
+        }
+        input2(e) {
+           this.text2 = e.target.value;
         }
 
         doCheck() {
