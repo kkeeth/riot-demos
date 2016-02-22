@@ -1,5 +1,16 @@
 <app>
-   <h3>{ opts.title }</h3>
+   <style>
+      h1 {
+         font-family: Comic\ Sans\ MS;
+      }
+      p,li {
+         font-size: 20px;
+         line-height: 1.5;
+         font-family: Comic\ Sans\ MS;
+      }
+   </style>
+ 
+   <h1>{ opts.title }</h1>
    <p>Please enter either of the text box</p>
    <form onSubmit={ doCheck } >
       <p>example1</p>
