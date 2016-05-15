@@ -15,12 +15,12 @@
    <form onSubmit={ doCheck } >
       <p>example1</p>
       <input type="text" onkeyup={ input1 }>
-      <input disabled={ !text1 } type="submit" value="チェック">
+      <input disabled={ !text1 } type="submit" value="check">
 
       <p>example2</p>
       <input type="text" onkeyup={ input2 }>
       <span if={ text2 }>
-         <input type="submit" value="チェック">
+         <input type="submit" value="check">
       </span>
    </form>
    <p>example3</p>
