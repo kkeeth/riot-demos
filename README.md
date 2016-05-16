@@ -4,7 +4,7 @@ This is a repository of some simple demos of [Riot.js](http://riotjs.com/).
 Please note the following things.
 
 - I don't think about design.
-- Using pre-compilation and do not need to compile.
+- Using In-browser compilation.
 - These demos are fairly simple.
 
 Let's enjoy Riot.js life!

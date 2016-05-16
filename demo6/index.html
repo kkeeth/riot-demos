@@ -6,13 +6,13 @@
   </head>
   <body>
     <app></app>
-    <script src="//cdn.jsdelivr.net/riot/2.4/riot.min.js"></script>
-    <script src="../js/demo6.js"></script>
+    <script src="../tag/demo6.tag" type="riot/tag"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.4.0/riot+compiler.min.js"></script>
 
     <!-- tags -->
-    <script src="../js/page1.js"></script>
-    <script src="../js/page2.js"></script>
-    <script src="../js/page3.js"></script>
+    <script src="../tag/page1.tag" type="riot/tag"></script>
+    <script src="../tag/page2.tag" type="riot/tag"></script>
+    <script src="../tag/page3.tag" type="riot/tag"></script>
 
     <script>
       riot.mount('app',{
@@ -26,7 +26,7 @@
          riot.mount('route', 'page'+tag)
       })
       riot.route('/', function() {
-         riot.unmount()
+         riot.unmount();
       })
     </script>
   </body>
