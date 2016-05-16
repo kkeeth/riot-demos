@@ -18,4 +18,5 @@ riot.tag2('app', '<h1>{opts.title}</h1> <p>array: [ \\{value: 123\\}, \\{value: 
            return item;
        }
    }.bind(this)
+
 }, '{ }');

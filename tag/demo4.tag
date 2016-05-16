@@ -1,15 +1,5 @@
 <app>
-   <style>
-      h1 {
-         font-family: Comic\ Sans\ MS;
-      }
-      p,li {
-         font-size: 20px;
-         line-height: 1.5;
-         font-family: Comic\ Sans\ MS;
-      }
-   </style>
- 
+   <!-- layout -->
    <h1>{ opts.title }</h1>
    <ul>
       <li><b>new Date():</b> <br>{ new Date() }</li><br />
@@ -20,7 +10,20 @@
       <li><b>Math.random(100):</b> <br>{ Math.random(100) }</li>
    </ul>
 
+   <!-- javascript -->
    this.name    = 'hoge';
    this.bool    = false;
    this.message = 'The frontend space is indeed crowded, but we honestly feel the solution is still "out there". We believe Riot offers the right balance for solving the great puzzle. While React seems to do it, they have serious weak points that Riot will solve. (From the Riot.js site)';
+
+   <!-- style -->
+   <style>
+      h1 {
+         font-family: Comic\ Sans\ MS;
+      }
+      p,li {
+         font-size: 20px;
+         line-height: 1.5;
+         font-family: Comic\ Sans\ MS;
+      }
+   </style>
 </app>

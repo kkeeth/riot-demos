@@ -1,15 +1,5 @@
 <app>
-   <style>
-      h1 {
-         font-family: Comic\ Sans\ MS;
-      }
-      p,li {
-         font-size: 20px;
-         line-height: 1.5;
-         font-family: Comic\ Sans\ MS;
-      }
-   </style>
- 
+   <!-- layout -->
    <h1>{ opts.title }</h1>
    <p>Please enter either of the text box</p>
    <form onSubmit={ doCheck } >
@@ -26,6 +16,7 @@
    <p>example3</p>
    <p if="{ check_string(text3) }">variable text3 is string.</p>
 
+   <!-- javascript -->
    this.text1 = '';
    this.text2 = '';
    this.text3 = 'hogehoge';
@@ -46,4 +37,16 @@
    doCheck() {
       // process of submit
    }
+
+   <!-- style -->
+   <style>
+      h1 {
+         font-family: Comic\ Sans\ MS;
+      }
+      p,li {
+         font-size: 20px;
+         line-height: 1.5;
+         font-family: Comic\ Sans\ MS;
+      }
+   </style>
 </app>
