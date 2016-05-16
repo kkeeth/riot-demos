@@ -6,11 +6,27 @@
   </head>
   <body>
     <app></app>
-    <script src="//cdn.jsdelivr.net/riot/2.3/riot.min.js"></script>
+    <script src="//cdn.jsdelivr.net/riot/2.4/riot.min.js"></script>
     <script src="../js/demo6.js"></script>
+
+    <!-- tags -->
+    <script src="../js/page1.js"></script>
+    <script src="../js/page2.js"></script>
+    <script src="../js/page3.js"></script>
+
     <script>
-      riot.mount('app',{
+      riot.mount('app, page1',{
         title: 'Routing demo',
+      })
+
+      riot.route.start();
+      riot.route.base('/riot-demos/demo6/')
+
+      riot.route('/page*', function(tag) {
+         riot.mount('route', 'page'+tag)
+      })
+      riot.route('/', function() {
+         riot.unmount()
       })
     </script>
   </body>
