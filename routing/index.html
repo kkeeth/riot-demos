@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>riot-demos/routing</title>
+  </head>
+  <body>
+    <app></app>
+    <script src="./routing_demo.tag" type="riot/tag"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.4.1/riot+compiler.min.js"></script>
+
+    <!-- tags -->
+    <script src="./page1.tag" type="riot/tag"></script>
+    <script src="./page2.tag" type="riot/tag"></script>
+    <script src="./page3.tag" type="riot/tag"></script>
+
+    <script>
+      riot.mount('app',{
+        title: 'Routing demo',
+      })
+
+      riot.route.start();
+      riot.route.base('/riot-demos/routing/')
+
+      riot.route('#*', function(tag) {
+         riot.mount('route', tag)
+      })
+      riot.route('/', function() {
+         riot.mount('app',{
+           title: 'Routing demo',
+         })
+      })
+    </script>
+  </body>
+</html>
+
