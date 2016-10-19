@@ -1,5 +1,5 @@
 This is a repository of some simple demos of [Riot.js](http://riotjs.com/).  
-[Demo site](https://plnkr.co/v5zW8C)
+[Demo site](https://k-kuwahara.github.io/riot-demos/)
 
 Please note the following things.
 
