@@ -46,7 +46,8 @@
       p,li {
          font-size: 20px;
          line-height: 1.5;
-         font-family: Comic\ Sans\ MS;
+         font-weight: 900;
+         font-family: Josefin\ Sans;
       }
    </style>
 </app>
