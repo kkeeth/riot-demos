@@ -14,12 +14,12 @@
    <!-- style part -->
    <style>
       h1 {
-         font-family: Josefin Sans, Comic\ Sans\ MS;
+         font-family: Josefin\ Sans, Comic\ Sans\ MS;
       }
       p,li {
          font-size: 20px;
          line-height: 1.5;
-         font-family: Josefin Sans;
+         font-family: Josefin\ Sans;
       }
    </style>
 </app>
