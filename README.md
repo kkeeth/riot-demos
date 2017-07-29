@@ -17,7 +17,6 @@ Let's enjoy Riot.js life!
 4. Demo4: [Expressions](https://github.com/k-kuwahara/riot-demos/blob/master/expressions/index.html)
 5. Demo5: [Filter](https://github.com/k-kuwahara/riot-demos/blob/master/filter/index.html)
 6. Demo6: [Routing](https://github.com/k-kuwahara/riot-demos/blob/master/routing/index.html)
-7. Demo7: [Mixin](https://k-kuwahara.github.io/riot-demos/mixin/)
 
 ## License
 [MIT license](https://github.com/k-kuwahara/riot-demos/blob/master/LICENSE.md)
